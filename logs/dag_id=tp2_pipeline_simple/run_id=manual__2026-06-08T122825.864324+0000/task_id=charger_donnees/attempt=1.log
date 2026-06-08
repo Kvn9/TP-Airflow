@@ -1,0 +1,15 @@
+[2026-06-08T12:28:28.317+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tp2_pipeline_simple.charger_donnees manual__2026-06-08T12:28:25.864324+00:00 [queued]>
+[2026-06-08T12:28:28.325+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tp2_pipeline_simple.charger_donnees manual__2026-06-08T12:28:25.864324+00:00 [queued]>
+[2026-06-08T12:28:28.326+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-06-08T12:28:28.338+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): charger_donnees> on 2026-06-08 12:28:25.864324+00:00
+[2026-06-08T12:28:28.345+0000] {standard_task_runner.py:60} INFO - Started process 222 to run task
+[2026-06-08T12:28:28.348+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tp2_pipeline_simple', 'charger_donnees', 'manual__2026-06-08T12:28:25.864324+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/tp2_premier_dag.py', '--cfg-path', '/tmp/tmphmy81fu8']
+[2026-06-08T12:28:28.350+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask charger_donnees
+[2026-06-08T12:28:28.399+0000] {task_command.py:423} INFO - Running <TaskInstance: tp2_pipeline_simple.charger_donnees manual__2026-06-08T12:28:25.864324+00:00 [running]> on host b983d22a4743
+[2026-06-08T12:28:28.477+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tp2_pipeline_simple' AIRFLOW_CTX_TASK_ID='charger_donnees' AIRFLOW_CTX_EXECUTION_DATE='2026-06-08T12:28:25.864324+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-08T12:28:25.864324+00:00'
+[2026-06-08T12:28:28.479+0000] {logging_mixin.py:188} INFO - Chargement vers la destination finale...
+[2026-06-08T12:28:28.479+0000] {logging_mixin.py:188} INFO - Chargement terminé avec succès.
+[2026-06-08T12:28:28.479+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-08T12:28:28.489+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tp2_pipeline_simple, task_id=charger_donnees, execution_date=20260608T122825, start_date=20260608T122828, end_date=20260608T122828
+[2026-06-08T12:28:28.522+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-08T12:28:28.542+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
