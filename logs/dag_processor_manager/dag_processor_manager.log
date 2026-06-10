@@ -491,3 +491,118 @@ File Path                                PID    Runtime      # DAGs    # Errors 
 /opt/airflow/dags/tp2_premier_dag.py                              1           0  0.23s           2026-06-10T11:28:26
 /opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.41s           2026-06-10T11:28:26
 ================================================================================
+[2026-06-10T11:29:23.746+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.13s           2026-06-10T11:28:57
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.20s           2026-06-10T11:28:57
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.36s           2026-06-10T11:28:57
+================================================================================
+[2026-06-10T11:29:29.175+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-10T11:29:29.463+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-10T11:29:53.779+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.14s           2026-06-10T11:29:27
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.21s           2026-06-10T11:29:28
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.37s           2026-06-10T11:29:28
+================================================================================
+[2026-06-10T11:30:24.542+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.14s           2026-06-10T11:29:58
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.22s           2026-06-10T11:29:59
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.38s           2026-06-10T11:29:59
+================================================================================
+[2026-06-10T11:30:55.369+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.17s           2026-06-10T11:30:29
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.25s           2026-06-10T11:30:30
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.42s           2026-06-10T11:30:30
+================================================================================
+[2026-06-10T11:31:26.195+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.16s           2026-06-10T11:31:00
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.23s           2026-06-10T11:31:00
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.40s           2026-06-10T11:31:00
+================================================================================
+[2026-06-10T11:31:57.006+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.16s           2026-06-10T11:31:31
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.23s           2026-06-10T11:31:31
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.42s           2026-06-10T11:31:31
+================================================================================
+[2026-06-10T11:32:27.974+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.27s           2026-06-10T11:32:02
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.26s           2026-06-10T11:32:02
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.50s           2026-06-10T11:32:02
+================================================================================
+[2026-06-10T11:32:58.777+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.15s           2026-06-10T11:32:33
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.22s           2026-06-10T11:32:33
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.37s           2026-06-10T11:32:33
+================================================================================
+[2026-06-10T11:33:29.564+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.16s           2026-06-10T11:33:04
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.21s           2026-06-10T11:33:04
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.39s           2026-06-10T11:33:04
+================================================================================
+[2026-06-10T11:34:00.364+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.15s           2026-06-10T11:33:34
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.25s           2026-06-10T11:33:35
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.42s           2026-06-10T11:33:35
+================================================================================
+[2026-06-10T11:34:30.141+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-10T11:34:30.459+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-10T11:34:30.483+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tp5/config.py                                   0           0  0.15s           2026-06-10T11:34:05
+/opt/airflow/dags/tp2_premier_dag.py                              1           0  0.23s           2026-06-10T11:34:05
+/opt/airflow/dags/tp5_pipeline_meteo.py                           1           0  0.42s           2026-06-10T11:34:05
+================================================================================
+[2026-06-10T11:34:53.172+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

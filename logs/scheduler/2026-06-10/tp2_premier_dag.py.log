@@ -282,3 +282,80 @@
 [2026-06-10T11:28:57.385+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:28:57.385+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-06-10T11:28:57.404+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:28:57.403+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
 [2026-06-10T11:28:57.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.151 seconds
+[2026-06-10T11:29:27.985+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:29:27.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:29:27.989+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:27.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:29:28.026+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:29:28.079+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:28.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:29:28.100+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:28.099+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:29:28.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.160 seconds
+[2026-06-10T11:29:59.044+0000] {processor.py:161} INFO - Started process (PID=882) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:29:59.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:29:59.050+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:59.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:29:59.092+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:29:59.147+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:59.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:29:59.170+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:59.170+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:29:59.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.168 seconds
+[2026-06-10T11:30:29.864+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:30:29.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:30:29.869+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:30:29.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:30:29.920+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:30:29.999+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:30:29.998+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:30:30.022+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:30:30.022+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:30:30.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.196 seconds
+[2026-06-10T11:31:00.678+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:31:00.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:31:00.684+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:00.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:31:00.733+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:31:00.786+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:00.786+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:31:00.810+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:00.809+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:31:00.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.173 seconds
+[2026-06-10T11:31:31.484+0000] {processor.py:161} INFO - Started process (PID=927) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:31:31.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:31:31.488+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:31.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:31:31.528+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:31:31.593+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:31.592+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:31:31.620+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:31.620+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:31:31.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.181 seconds
+[2026-06-10T11:32:02.418+0000] {processor.py:161} INFO - Started process (PID=942) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:32:02.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:32:02.422+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:02.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:32:02.466+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:32:02.529+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:02.529+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:32:02.561+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:02.561+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:32:02.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.192 seconds
+[2026-06-10T11:32:33.256+0000] {processor.py:161} INFO - Started process (PID=957) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:32:33.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:32:33.261+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:33.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:32:33.302+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:32:33.360+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:33.359+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:32:33.383+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:33.383+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:32:33.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.165 seconds
+[2026-06-10T11:33:04.068+0000] {processor.py:161} INFO - Started process (PID=972) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:33:04.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:33:04.071+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:04.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:33:04.113+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:33:04.167+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:04.166+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:33:04.186+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:04.186+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:33:04.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.157 seconds
+[2026-06-10T11:33:34.838+0000] {processor.py:161} INFO - Started process (PID=987) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:33:34.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:33:34.843+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:34.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:33:34.880+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:33:34.966+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:34.965+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:33:34.987+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:34.987+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:33:35.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.200 seconds
+[2026-06-10T11:34:05.642+0000] {processor.py:161} INFO - Started process (PID=1002) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:34:05.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:34:05.646+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:05.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:34:05.691+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:34:05.752+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:05.751+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:34:05.778+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:05.778+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:34:05.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.182 seconds
+[2026-06-10T11:34:36.779+0000] {processor.py:161} INFO - Started process (PID=1017) to work on /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:34:36.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp2_premier_dag.py for tasks to queue
+[2026-06-10T11:34:36.784+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:36.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:34:36.831+0000] {processor.py:840} INFO - DAG(s) 'tp2_pipeline_simple' retrieved from /opt/airflow/dags/tp2_premier_dag.py
+[2026-06-10T11:34:36.893+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:36.892+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:34:36.918+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:36.918+0000] {dag.py:3823} INFO - Setting next_dagrun for tp2_pipeline_simple to None, run_after=None
+[2026-06-10T11:34:36.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp2_premier_dag.py took 0.186 seconds

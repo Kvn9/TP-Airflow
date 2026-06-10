@@ -338,3 +338,80 @@ TypeError: 'type' object is not subscriptable
 [2026-06-10T11:28:57.420+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:28:57.420+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-06-10T11:28:57.444+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:28:57.444+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
 [2026-06-10T11:28:57.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.307 seconds
+[2026-06-10T11:29:27.867+0000] {processor.py:161} INFO - Started process (PID=862) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:29:27.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:29:27.873+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:27.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:29:28.010+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:29:28.105+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:28.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:29:28.135+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:28.135+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:29:28.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.315 seconds
+[2026-06-10T11:29:58.921+0000] {processor.py:161} INFO - Started process (PID=877) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:29:58.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:29:58.929+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:58.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:29:59.083+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:29:59.184+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:59.184+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:29:59.203+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:29:59.203+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:29:59.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.326 seconds
+[2026-06-10T11:30:29.727+0000] {processor.py:161} INFO - Started process (PID=892) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:30:29.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:30:29.733+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:30:29.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:30:29.893+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:30:30.024+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:30:30.023+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:30:30.042+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:30:30.042+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:30:30.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.364 seconds
+[2026-06-10T11:31:00.537+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:31:00.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:31:00.547+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:00.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:31:00.725+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:31:00.817+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:00.816+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:31:00.840+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:00.839+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:31:00.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.345 seconds
+[2026-06-10T11:31:31.350+0000] {processor.py:161} INFO - Started process (PID=922) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:31:31.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:31:31.354+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:31.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:31:31.516+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:31:31.628+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:31.627+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:31:31.655+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:31:31.655+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:31:31.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.357 seconds
+[2026-06-10T11:32:02.221+0000] {processor.py:161} INFO - Started process (PID=937) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:32:02.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:32:02.238+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:02.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:32:02.432+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:32:02.545+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:02.545+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:32:02.574+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:02.573+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:32:02.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.415 seconds
+[2026-06-10T11:32:33.127+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:32:33.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:32:33.131+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:33.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:32:33.291+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:32:33.381+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:33.380+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:32:33.401+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:32:33.401+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:32:33.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.315 seconds
+[2026-06-10T11:33:03.934+0000] {processor.py:161} INFO - Started process (PID=967) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:33:03.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:33:03.940+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:03.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:33:04.105+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:33:04.195+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:04.194+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:33:04.216+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:04.214+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:33:04.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.327 seconds
+[2026-06-10T11:33:34.700+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:33:34.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:33:34.705+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:34.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:33:34.860+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:33:34.989+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:34.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:33:35.018+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:33:35.017+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:33:35.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.364 seconds
+[2026-06-10T11:34:05.506+0000] {processor.py:161} INFO - Started process (PID=997) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:34:05.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:34:05.511+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:05.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:34:05.681+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:34:05.781+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:05.781+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:34:05.812+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:05.812+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:34:05.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.355 seconds
+[2026-06-10T11:34:36.645+0000] {processor.py:161} INFO - Started process (PID=1012) to work on /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:34:36.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tp5_pipeline_meteo.py for tasks to queue
+[2026-06-10T11:34:36.650+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:36.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:34:36.805+0000] {processor.py:840} INFO - DAG(s) 'tp5_pipeline_meteo_open_meteo' retrieved from /opt/airflow/dags/tp5_pipeline_meteo.py
+[2026-06-10T11:34:36.896+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:36.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-10T11:34:36.918+0000] {logging_mixin.py:188} INFO - [2026-06-10T11:34:36.918+0000] {dag.py:3823} INFO - Setting next_dagrun for tp5_pipeline_meteo_open_meteo to None, run_after=None
+[2026-06-10T11:34:36.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tp5_pipeline_meteo.py took 0.314 seconds
