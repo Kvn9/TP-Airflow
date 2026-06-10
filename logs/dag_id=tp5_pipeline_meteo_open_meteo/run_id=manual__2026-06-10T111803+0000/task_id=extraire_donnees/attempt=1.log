@@ -1,0 +1,20 @@
+[2026-06-10T11:18:25.695+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tp5_pipeline_meteo_open_meteo.extraire_donnees manual__2026-06-10T11:18:03+00:00 [queued]>
+[2026-06-10T11:18:25.713+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tp5_pipeline_meteo_open_meteo.extraire_donnees manual__2026-06-10T11:18:03+00:00 [queued]>
+[2026-06-10T11:18:25.715+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-06-10T11:18:25.743+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extraire_donnees> on 2026-06-10 11:18:03+00:00
+[2026-06-10T11:18:25.752+0000] {standard_task_runner.py:60} INFO - Started process 503 to run task
+[2026-06-10T11:18:25.761+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tp5_pipeline_meteo_open_meteo', 'extraire_donnees', 'manual__2026-06-10T11:18:03+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/tp5_pipeline_meteo.py', '--cfg-path', '/tmp/tmp7g30bxo6']
+[2026-06-10T11:18:25.767+0000] {standard_task_runner.py:88} INFO - Job 9: Subtask extraire_donnees
+[2026-06-10T11:18:25.894+0000] {task_command.py:423} INFO - Running <TaskInstance: tp5_pipeline_meteo_open_meteo.extraire_donnees manual__2026-06-10T11:18:03+00:00 [running]> on host bcf63d240ad9
+[2026-06-10T11:18:26.087+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='tp5' AIRFLOW_CTX_DAG_ID='tp5_pipeline_meteo_open_meteo' AIRFLOW_CTX_TASK_ID='extraire_donnees' AIRFLOW_CTX_EXECUTION_DATE='2026-06-10T11:18:03+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-10T11:18:03+00:00'
+[2026-06-10T11:18:26.090+0000] {api_client.py:32} INFO - Appel Open-Meteo pour Paris (lat=48.8566, lon=2.3522, jours=7)
+[2026-06-10T11:18:26.350+0000] {api_client.py:39} INFO - [Paris] réponse OK — 657 octets
+[2026-06-10T11:18:26.353+0000] {api_client.py:32} INFO - Appel Open-Meteo pour Lyon (lat=45.764, lon=4.8357, jours=7)
+[2026-06-10T11:18:26.540+0000] {api_client.py:39} INFO - [Lyon] réponse OK — 663 octets
+[2026-06-10T11:18:26.547+0000] {api_client.py:32} INFO - Appel Open-Meteo pour Bordeaux (lat=44.8378, lon=-0.5792, jours=7)
+[2026-06-10T11:18:26.720+0000] {api_client.py:39} INFO - [Bordeaux] réponse OK — 660 octets
+[2026-06-10T11:18:26.746+0000] {tp5_pipeline_meteo.py:69} INFO - Extraction terminée pour : ['Paris', 'Lyon', 'Bordeaux']
+[2026-06-10T11:18:26.750+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-10T11:18:26.766+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tp5_pipeline_meteo_open_meteo, task_id=extraire_donnees, execution_date=20260610T111803, start_date=20260610T111825, end_date=20260610T111826
+[2026-06-10T11:18:26.819+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-10T11:18:26.872+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

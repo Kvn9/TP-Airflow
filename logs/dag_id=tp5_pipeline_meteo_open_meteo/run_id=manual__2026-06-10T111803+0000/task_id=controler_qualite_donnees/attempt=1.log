@@ -1,0 +1,15 @@
+[2026-06-10T11:18:31.259+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tp5_pipeline_meteo_open_meteo.controler_qualite_donnees manual__2026-06-10T11:18:03+00:00 [queued]>
+[2026-06-10T11:18:31.269+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tp5_pipeline_meteo_open_meteo.controler_qualite_donnees manual__2026-06-10T11:18:03+00:00 [queued]>
+[2026-06-10T11:18:31.270+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-06-10T11:18:31.286+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): controler_qualite_donnees> on 2026-06-10 11:18:03+00:00
+[2026-06-10T11:18:31.294+0000] {standard_task_runner.py:60} INFO - Started process 509 to run task
+[2026-06-10T11:18:31.299+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tp5_pipeline_meteo_open_meteo', 'controler_qualite_donnees', 'manual__2026-06-10T11:18:03+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/tp5_pipeline_meteo.py', '--cfg-path', '/tmp/tmpz8bkab62']
+[2026-06-10T11:18:31.302+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask controler_qualite_donnees
+[2026-06-10T11:18:31.378+0000] {task_command.py:423} INFO - Running <TaskInstance: tp5_pipeline_meteo_open_meteo.controler_qualite_donnees manual__2026-06-10T11:18:03+00:00 [running]> on host bcf63d240ad9
+[2026-06-10T11:18:31.490+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='tp5' AIRFLOW_CTX_DAG_ID='tp5_pipeline_meteo_open_meteo' AIRFLOW_CTX_TASK_ID='controler_qualite_donnees' AIRFLOW_CTX_EXECUTION_DATE='2026-06-10T11:18:03+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-10T11:18:03+00:00'
+[2026-06-10T11:18:31.512+0000] {quality.py:116} WARNING - [Paris 2026-06-10] 1 anomalie(s) détectée(s) : [{'champ': 'temperature_max', 'valeur': 999.9, 'regle_violee': 'hors plage [-50.0, 60.0]'}]
+[2026-06-10T11:18:31.513+0000] {quality.py:121} INFO - Contrôle qualité : 20 lignes valides / 1 anomalies
+[2026-06-10T11:18:31.564+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-10T11:18:31.580+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tp5_pipeline_meteo_open_meteo, task_id=controler_qualite_donnees, execution_date=20260610T111803, start_date=20260610T111831, end_date=20260610T111831
+[2026-06-10T11:18:31.632+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-10T11:18:31.667+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
